@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fop version="1.1">
+  <base>.</base>
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+
+        <font metrics-url="fonts/wqy-microhei.xml" kerning="yes" embed-url="fonts/wqy-microhei.ttc">
+          <font-triplet name="WenQuanYi Micro Hei" style="normal" weight="normal"/>
+        </font>
+
+        <font kerning="yes" embed-url="fonts/gbsn00lp.ttf">
+          <font-triplet name="AR PL SungtiL GB" style="normal" weight="normal"/>
+        </font>
+
+        <font kerning="yes" embed-url="fonts/gkai00mp.ttf">
+          <font-triplet name="AR PL KaitiM GB" style="normal" weight="normal"/>
+        </font>
+
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>

@@ -1,0 +1,5 @@
+html:
+a2x -v -L -f xhtml cppsyntx.txt 
+ 
+pdf:
+a2x -v -L -f pdf --fop --xsl-file=fop.xsl --fop-opts="-c fop.xconf" cppsyntx.txt 
